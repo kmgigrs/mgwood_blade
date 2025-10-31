@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u7161501/public_html/mgwood_blade
+    - /bin/cp -r * $DEPLOYPATH
