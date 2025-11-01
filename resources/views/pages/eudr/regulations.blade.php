@@ -37,14 +37,14 @@
     </div>
 </div>
 
-<!-- bagian ini spesial -->
+
 <!-- 🔊 Button to unmute -->
-<div class="text-center mt-3">
+<!--<div class="text-center mt-3">
     <button id="unmuteBtnYT" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm flex items-center justify-center mx-auto gap-2">
         Tap to Unmute 
         🔊
     </button>
-</div>
+</div>-->
 
 <!-- 🎵 YouTube Unmute Script -->
 <script src="https://www.youtube.com/iframe_api"></script>
