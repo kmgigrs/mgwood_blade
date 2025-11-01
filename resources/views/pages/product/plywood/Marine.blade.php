@@ -10,6 +10,7 @@
       <h1 class="font-libre font-extrabold flex flex-col text-3xl text-left leading-tight text-primary my-1">
         Marine Plywood BS1088
       </h1>
+<<<<<<< HEAD
       <!-- Bagian gambar dua sejajar -->
     <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-6">
       <div class="w-full md:w-1/2">
@@ -73,6 +74,9 @@
     </div>
   </div>
       <!-- <div class="flex w-full flex-col md:flex-row">
+=======
+      <div class="flex w-full flex-col md:flex-row">
+>>>>>>> 5affaf5 (fix update)
         <div class="w-full mx-0 md:mx-2 my-4 md:my-0">
           <img class="object-contain h-full w-full max-h-[80vh] lg:max-h-[65vh]"
             src="{{ asset('assets/images/products/plywood/marine/marine3.jpg') }}" loading="lazy" />
@@ -119,7 +123,11 @@
             </tr>
           </tbody>
         </table>
+<<<<<<< HEAD
       </div> -->
+=======
+      </div>
+>>>>>>> 5affaf5 (fix update)
       <div class="w-full h-full flex flex-col items-center justify-center mx-auto max-w-7xl my-5">
       <div class="w-10/10">
         <p class="font-mont text-accent text-md text-left mb-4">

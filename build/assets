@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: false;
+}
+@theme {
+    --text-tiny: 0.625rem;
+    --font-mont: "Montserrat", sans-serif;
+    --font-libre: "Libre Baskerville", serif;
+    --color-wa: #25d366;
+}
+
+@source "../views";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../**/*.blade.php";
+@source "../**/*.js";
+@source "../**/*.vue";

@@ -64,7 +64,10 @@
   @include('components.Navbar')
   @yield('content')
   @include('components.Footer')
+<<<<<<< HEAD
   {{-- 
+=======
+>>>>>>> 5affaf5 (fix update)
   <div class="dropdown dropdown-top dropdown-end banner z-0 ">
     <div tabindex="0" role="button" class="btn m-1 h-10 bg-wa">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp"
@@ -88,6 +91,7 @@
       </li>
     </ul>
   </div>
+<<<<<<< HEAD
   --}}
   <!-- Floating Contact Us Icon + Animated Text -->
 <div class="fixed bottom-5 right-5 z-50 flex flex-col items-center space-y-2">
@@ -152,6 +156,15 @@
   {{-- toastr --}}
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
+=======
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  {{-- toaster initiate --}}
+  {{-- toastr --}}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+>>>>>>> 5affaf5 (fix update)
   @if (Session::has('pesan'))
     toastr. {
     {
