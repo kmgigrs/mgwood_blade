@@ -75,11 +75,7 @@
     <div class="slides relative w-full transition-all duration-500">
       
       <!-- Slide 1 -->
-<<<<<<< HEAD
-       <div class="slide absolute inset-0 opacity-0 pointer-events-none transition-opacity duration-700 ease-in-out peer-checked:opacity-100 peer-checked:pointer-events-auto peer-checked:z-10" id="content1">
-=======
        <div class="slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out peer-checked:opacity-100" id="content1">
->>>>>>> 5affaf5 (fix update)
         <div class="flex flex-col lg:flex-row items-center gap-8">
           <img src="{{ asset('assets/images/products/plywood/marine/marine3.jpg') }}" class="w-full lg:w-[420px] h-[260px] object-cover rounded-md" alt="Marine Ply">
           <div>
@@ -91,11 +87,7 @@
       </div>
 
       <!-- Slide 2 -->
-<<<<<<< HEAD
-      <div class="slide absolute inset-0 opacity-0 pointer-events-none transition-opacity duration-700 ease-in-out peer-checked:opacity-100 peer-checked:pointer-events-auto peer-checked:z-10" id="content2">
-=======
       <div class="slide absolute inset-0 opacity-0 transition-opacity duration-700 ease-in-out peer-checked:opacity-100" id="content2">
->>>>>>> 5affaf5 (fix update)
         <div class="flex flex-col lg:flex-row items-center gap-8">
           <img src="{{ asset('assets/images/products/plywood/ordinary/ordinary-plywood.jpg') }}" class="w-full lg:w-[420px] h-[260px] object-cover rounded-md" alt="Ordinary Ply">
           <div>
@@ -117,24 +109,6 @@
 
 <!-- === Tambahan CSS sederhana === -->
 <style>
-<<<<<<< HEAD
-  /* default semua slide transparan & non-klik */
-  .slides .slide {
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    inset: 0;
-    transition: opacity 0.7s ease-in-out;
-  }
-
-  /* slide yang aktif */
-  #slide1:checked ~ .slides #content1,
-  #slide2:checked ~ .slides #content2 {
-    opacity: 1;
-    pointer-events: auto;
-    position: relative;
-    z-index: 5;
-=======
   /* tampilkan slide aktif */
   #slide1:checked ~ .slides #content1,
   #slide2:checked ~ .slides #content2 {
@@ -147,7 +121,6 @@
     pointer-events: auto; /* memastikan link bisa diklik */
     /*z-index: 50;           agar di atas elemen lain */
     position: relative;   /* memberi konteks stacking */
->>>>>>> 5affaf5 (fix update)
   }
 </style>
 
@@ -162,25 +135,9 @@
     slides[index].checked = true;
   }
 
-<<<<<<< HEAD
-  setInterval(nextSlide, 4000); // ganti 5000 jadi 3000 kalau mau lebih cepat
-</script> 
-
-<!-- ✅ Tambahkan script pause-on-hover di SINI -->
-<script>
-  let timer = setInterval(nextSlide, 3000);
-
-  document.querySelector(".slides").addEventListener("mouseenter", () => clearInterval(timer));
-  document.querySelector(".slides").addEventListener("mouseleave", () => {
-    timer = setInterval(nextSlide, 3000);
-  });
-</script>
-
-=======
   setInterval(nextSlide, 3000); // ganti 5000 jadi 3000 kalau mau lebih cepat
 </script> 
 
->>>>>>> 5affaf5 (fix update)
   {{-- Products --}}
   <div class="w-full h-full flex flex-col items-center justify-center mx-auto max-w-7xl z-0">
     <h2 class="mt-6 font-libre flex flex-col text-3xl text-left leading-tight text-primary my-1 font-extrabold">

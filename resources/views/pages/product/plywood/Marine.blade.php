@@ -10,73 +10,7 @@
       <h1 class="font-libre font-extrabold flex flex-col text-3xl text-left leading-tight text-primary my-1">
         Marine Plywood BS1088
       </h1>
-<<<<<<< HEAD
-      <!-- Bagian gambar dua sejajar -->
-    <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-6">
-      <div class="w-full md:w-1/2">
-        <img
-          class="object-cover w-full h-auto rounded-lg shadow-md"
-          src="{{ asset('assets/images/products/plywood/marine/1.jpg') }}"
-          loading="lazy"
-          alt="Marine Plywood 1"
-        />
-      </div>
-      <div class="w-full md:w-1/2">
-        <img
-          class="object-cover w-full h-auto rounded-lg shadow-md"
-          src="{{ asset('assets/images/products/plywood/marine/2.jpg') }}"
-          loading="lazy"
-          alt="Marine Plywood 2"
-        />
-      </div>
-    </div>
-
-    <!-- Tabel tanpa garis -->
-    <div class="overflow-x-auto">
-      <table class="table-auto w-full text-left text-black">
-        <thead class="font-semibold text-primary">
-          <tr>
-            <th class="px-4 py-2">Criteria</th>
-            <th class="px-4 py-2">Specification</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="px-4 py-2">THICKNESS</td>
-            <td class="px-4 py-2">6/9/12/15/18/21/25 mm</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-2">WIDTH</td>
-            <td class="px-4 py-2">1220</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-2">LENGTH</td>
-            <td class="px-4 py-2">2440</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-2">GLUE</td>
-            <td class="px-4 py-2">WBP</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-2">SPECIES</td>
-            <td class="px-4 py-2">MERANTI</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-2">STANDARD</td>
-            <td class="px-4 py-2">BS1088</td>
-          </tr>
-          <tr>
-            <td class="px-4 py-2">GRADE</td>
-            <td class="px-4 py-2">MARINE</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-      <!-- <div class="flex w-full flex-col md:flex-row">
-=======
       <div class="flex w-full flex-col md:flex-row">
->>>>>>> 5affaf5 (fix update)
         <div class="w-full mx-0 md:mx-2 my-4 md:my-0">
           <img class="object-contain h-full w-full max-h-[80vh] lg:max-h-[65vh]"
             src="{{ asset('assets/images/products/plywood/marine/marine3.jpg') }}" loading="lazy" />
@@ -123,11 +57,7 @@
             </tr>
           </tbody>
         </table>
-<<<<<<< HEAD
-      </div> -->
-=======
       </div>
->>>>>>> 5affaf5 (fix update)
       <div class="w-full h-full flex flex-col items-center justify-center mx-auto max-w-7xl my-5">
       <div class="w-10/10">
         <p class="font-mont text-accent text-md text-left mb-4">
