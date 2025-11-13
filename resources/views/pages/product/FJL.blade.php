@@ -32,7 +32,7 @@
             <ul class="list-disc list-inside">
               <li>Meranti</li>
               <li>Nyantoh</li>
-              <li>Western Red Cedar</li>
+              <!-- <li>Western Red Cedar</li> -->
               <li>Yellow Cedar</li>
             </ul>
           </div>
