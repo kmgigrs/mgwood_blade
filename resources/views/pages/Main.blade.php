@@ -114,13 +114,22 @@
   #slide2:checked ~ .slides #content2 {
     opacity: 1;
     position: relative;
+    z-index: 1;
   }
-  
-  /* ⬇️ Tambahkan ini di bawah kode di atas */
-  .slides a {
-    pointer-events: auto; /* memastikan link bisa diklik */
-    /*z-index: 50;           agar di atas elemen lain */
-    position: relative;   /* memberi konteks stacking */
+
+  /* sembunyikan slide tidak aktif */
+  #slide1:checked ~ .slides #content2,
+  #slide2:checked ~ .slides #content1 {
+    opacity: 0;
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* aktifkan klik pada slide aktif */
+  #slide1:checked ~ .slides #content1 a,
+  #slide2:checked ~ .slides #content2 a {
+    pointer-events: auto;
   }
 </style>
 
@@ -135,8 +144,18 @@
     slides[index].checked = true;
   }
 
-  setInterval(nextSlide, 3000); // ganti 5000 jadi 3000 kalau mau lebih cepat
+  setInterval(nextSlide, 5000); // ganti 5000 jadi 3000 kalau mau lebih cepat
 </script> 
+
+<!-- ✅ Tambahkan script pause-on-hover di SINI -->
+<script>
+  // let timer = setInterval(nextSlide, 5000);
+
+  // document.querySelector(".slides").addEventListener("mouseenter", () => clearInterval(timer));
+  // document.querySelector(".slides").addEventListener("mouseleave", () => {
+  //   timer = setInterval(nextSlide, 5000);
+  // });
+</script>
 
   {{-- Products --}}
   <div class="w-full h-full flex flex-col items-center justify-center mx-auto max-w-7xl z-0">
