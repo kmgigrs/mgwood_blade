@@ -22,6 +22,53 @@
           Kayu Multiguna Indonesia
         </span>
       </h2>
+
+      <!-- ✅ VIDEO SECTION -->
+<div class="w-10/12 md:w-7/12 lg:w-6/12 mx-auto my-5 rounded-lg shadow-lg overflow-hidden" style="max-height:400px;">
+    <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+        <iframe
+            id="ytplayer"
+            class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/8hKiKLHMQGg?autoplay=1&mute=1&loop=1&playlist=8hKiKLHMQGg&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1&enablejsapi=1"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+
+<!-- 🔊 Button to unmute -->
+<div class="text-center mt-3">
+    <button id="unmuteBtnYT" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm flex items-center justify-center mx-auto gap-2">
+        Tap to Unmute 
+        🔊
+    </button>
+</div>
+
+<!-- 🎵 YouTube Unmute Script -->
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+    let player;
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('ytplayer', {
+            events: {
+                'onReady': function() {
+                    player.mute();
+                    player.playVideo();
+                }
+            }
+        });
+    }
+
+    const btn = document.getElementById("unmuteBtnYT");
+    btn.addEventListener("click", () => {
+        player.unMute();
+        player.setVolume(100);
+        btn.style.display = "none";
+    });
+</script>
+
       <div class="w-10/12">
         <div class="w-full lg:w-full h-full flex flex-col items-center justify-center">
           <div class="flex w-full justify-center mx-auto max-w-7xl my-2">
