@@ -64,6 +64,7 @@
   @include('components.Navbar')
   @yield('content')
   @include('components.Footer')
+  {{-- 
   <div class="dropdown dropdown-top dropdown-end banner z-0 ">
     <div tabindex="0" role="button" class="btn m-1 h-10 bg-wa">
       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-whatsapp"
@@ -87,6 +88,61 @@
       </li>
     </ul>
   </div>
+  --}}
+
+  <!-- Floating Contact Us Icon + Animated Text -->
+<div class="fixed bottom-5 right-5 z-50 flex flex-col items-center space-y-2">
+  <!-- Contact Us Round Button -->
+<button id="contactButton"
+    class="bg-green-500 hover:bg-green-600 text-white animate-bounce drop-shadow-md tracking-wide w-24 h-24 rounded-full shadow-xl flex items-center justify-center text-sm font-bold tracking-wide">
+    Contact Us
+</button>
+
+  <!-- Popup Contact Options -->
+  <div id="contactPopup" class="hidden absolute bottom-24 right-0 bg-white border rounded-lg shadow-lg w-60">
+    <ul class="py-2 text-gray-700">
+      <li>
+        <a href="https://wa.me/6282322598975" target="_blank"
+          class="block px-4 py-2 hover:bg-green-100">WhatsApp</a>
+      </li>
+      <li>
+        <a href="mailto:hugo@multigunawood.com" target="_blank"
+          class="block px-4 py-2 hover:bg-blue-100">Email</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Script untuk Toggle Popup -->
+<script>
+  document.getElementById('contactButton').addEventListener('click', function () {
+    const popup = document.getElementById('contactPopup');
+    popup.classList.toggle('hidden');
+  });
+  // Tutup popup jika klik di luar area
+  document.addEventListener('click', function (event) {
+    const button = document.getElementById('contactButton');
+    const popup = document.getElementById('contactPopup');
+    if (!button.contains(event.target) && !popup.contains(event.target)) {
+      popup.classList.add('hidden');
+    }
+  });
+</script>
+<!-- Custom bounce animation -->
+<style>
+  .animate-bounce {
+    animation: bounce 2s infinite ease-in-out;
+  }
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-4px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+</style>
+
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
