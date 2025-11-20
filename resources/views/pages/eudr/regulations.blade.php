@@ -24,8 +24,8 @@
       </h2>
 
       <!-- ✅ VIDEO SECTION -->
-<div class="w-10/12 md:w-7/12 lg:w-6/12 mx-auto my-5 rounded-lg shadow-lg overflow-hidden items-center justify-center" style="max-height:400px;">
-    <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+<div class="w-10/12 lg:w-1/2">
+        <div class="w-full lg:w-full h-full flex flex-col items-center justify-center mb-5">
         <!-- <iframe
             id="ytplayer"
             class="absolute top-0 left-0 w-full h-full"
