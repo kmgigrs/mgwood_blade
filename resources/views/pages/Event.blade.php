@@ -49,8 +49,8 @@
       </h2>
       <div class="w-10/12 lg:w-1/2">
         <div class="flex flex-col gap-4">
-          <div><img src="{{ asset('assets/images/Event/background.jpg') }}"></div>
-          <hr>
+          <!-- <div><img src="{{ asset('assets/images/Event/background.jpg') }}"></div>
+          <hr> -->
           <!-- <div><img src="{{ asset('assets/images/Event/intermob.jpg') }}"></div> -->
         </div>
       </div>
