@@ -24,7 +24,7 @@
       </h2>
 
       <!-- ✅ VIDEO SECTION -->
-<div class="w-10/12 md:w-7/12 lg:w-6/12 mx-auto my-5 rounded-lg shadow-lg overflow-hidden" style="max-height:400px;">
+<div class="w-10/12 md:w-7/12 lg:w-6/12 mx-auto my-5 rounded-lg shadow-lg overflow-hidden items-center justify-center" style="max-height:400px;">
     <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
         <!-- <iframe
             id="ytplayer"
@@ -40,12 +40,12 @@
 
 
 <!-- 🔊 Button to unmute -->
-<div class="text-center mt-3">
+<!-- <div class="text-center mt-3">
     <button id="unmuteBtnYT" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm flex items-center justify-center mx-auto gap-2">
         Tap to Unmute 
         🔊
     </button>
-</div>
+</div> -->
 
 <!-- 🎵 YouTube Unmute Script -->
 <!-- <script src="https://www.youtube.com/iframe_api"></script>
