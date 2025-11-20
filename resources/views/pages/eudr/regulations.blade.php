@@ -26,14 +26,15 @@
       <!-- ✅ VIDEO SECTION -->
 <div class="w-10/12 md:w-7/12 lg:w-6/12 mx-auto my-5 rounded-lg shadow-lg overflow-hidden" style="max-height:400px;">
     <div class="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
-        <iframe
+        <!-- <iframe
             id="ytplayer"
             class="absolute top-0 left-0 w-full h-full"
             src="https://www.youtube.com/embed/8hKiKLHMQGg?autoplay=1&mute=1&loop=1&playlist=8hKiKLHMQGg&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1&enablejsapi=1"
             frameborder="0"
             allow="autoplay; fullscreen"
             allowfullscreen>
-        </iframe>
+        </iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8hKiKLHMQGg?si=g6c3jjrP9Je7-9F5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
 
@@ -47,7 +48,7 @@
 </div>
 
 <!-- 🎵 YouTube Unmute Script -->
-<script src="https://www.youtube.com/iframe_api"></script>
+<!-- <script src="https://www.youtube.com/iframe_api"></script>
 <script>
     let player;
     function onYouTubeIframeAPIReady() {
@@ -67,7 +68,7 @@
         player.setVolume(100);
         btn.style.display = "none";
     });
-</script>
+</script> -->
 
       <div class="w-10/12">
         <div class="w-full lg:w-full h-full flex flex-col items-center justify-center">
