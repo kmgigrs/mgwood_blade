@@ -21,7 +21,7 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="{{ asset('assets/images/cert/CARB/CARB.1.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/cert/CARB/carb1.jpg') }}" alt="">
               </li>
               {{-- <li class="splide__slide"> 
                 <img src="{{ asset('assets/images/cert/CARB/CARB.2jklmn.jpg') }}" alt="">

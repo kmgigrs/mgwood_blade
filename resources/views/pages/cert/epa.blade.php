@@ -21,7 +21,7 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="{{ asset('assets/images/cert/EPA/EPA.1.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/cert/EPA/epa1.jpg') }}" alt="">
               </li>
               {{-- <li class="splide__slide"> <img src="{{ asset('assets/images/cert/EPA/EPAjklmn.2.jpg') }}" alt="">
               </li> --}}
