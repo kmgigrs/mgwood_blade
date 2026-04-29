@@ -21,10 +21,10 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="{{ asset('assets/images/cert/SVLK/E-Ceri SVLK KMGI-2023_page-0001.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/cert/SVLK/VLK 00015_page-0001.jpg') }}" alt="">
               </li>
               <li class="splide__slide">
-                <img src="{{ asset('assets/images/cert/SVLK/E-Ceri SVLK KMGI-2023_page-0002.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/cert/SVLK/VLK 00015_page-0002.jpg') }}" alt="">
               </li>
             </ul>
           </div>
