@@ -21,7 +21,7 @@
           <div class="splide__track">
             <ul class="splide__list">
               <li class="splide__slide">
-                <img src="{{ asset('assets/images/cert/Marine/marine.png') }}" alt="">
+                <img src="{{ asset('assets/images/cert/Marine/marineplywood26.jpeg') }}" alt="">
               </li>
             </ul>
           </div>
