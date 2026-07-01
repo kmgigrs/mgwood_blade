@@ -48,11 +48,27 @@
         </span>
       </h2> -->
 
-      <div class="w-10/12 lg:w-1/2">
+      <!-- <div class="w-10/12 lg:w-1/2">
         <div class="w-full lg:w-full h-full flex flex-col items-center justify-center mb-4">
           <img class="w-full lg:h-full object-cover" src="{{ asset('assets/images/Event/flyer-web.jpg') }}"
             loading="lazy" />
-      </div>
+      </div> -->
+
+      <!-- ✅ VIDEO SECTION -->
+<div class="w-10/12 lg:w-1/2">
+        <div class="w-full lg:w-full h-full flex flex-col items-center justify-center mb-5">
+        <!-- <iframe
+            id="ytplayer"
+            class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/8hKiKLHMQGg?autoplay=1&mute=1&loop=1&playlist=8hKiKLHMQGg&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1&enablejsapi=1"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen>
+        </iframe> -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WasgHY2QN5I?si=7u7eiFF1Uwnzcp4L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
       <!-- <div class="w-10/14 lg:w-1/2">
         <div class="flex flex-col gap-4">
           

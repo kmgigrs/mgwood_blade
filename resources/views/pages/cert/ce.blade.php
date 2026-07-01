@@ -22,11 +22,11 @@
             <ul class="splide__list">
               <li class="splide__slide">
                 <img
-                  src="{{ asset('assets/images/cert/CE/2358-CPR-0353_Kayu Multiguna Indonesia_EN13986_Exp_230622_142109_page-0001.jpg') }}"
+                  src="{{ asset('assets/images/cert/CE/CE_2026_page-0001.jpg') }}"
                   alt="">
               </li>
               {{-- <li class="splide__slide">
-                <img src="{{ asset('assets/images/cert/CE/2358-CPR-0353_Kayu Multiguna Indonesia_EN13986_Exp_230622_142109_page-0002jklmn.jpg') }}" alt="">
+                <img src="{{ asset('assets/images/cert/CE/CE_2026_page-0002.jpg') }}" alt="">
               </li> --}}
             </ul>
           </div>
